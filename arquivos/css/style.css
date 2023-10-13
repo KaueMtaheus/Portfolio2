@@ -3,8 +3,8 @@
  /* ________Geral________ */
 
  * {
-    padding: 2px;
-    margin: 2px;
+    padding: 0px;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     box-sizing: border-box;
@@ -12,19 +12,20 @@
 
  body {
     background-color: black;
+    width: 100%;
  }
 
  /*________ Header, navegação_________ */
 
 .navbar {
-    background: linear-gradient(to right, black, transparent);
+    background: linear-gradient(to left, #6500008a,  black,  transparent, transparent, #390a0a);
     align-items: center;
     justify-content: space-around;
     position: fixed;
     display: flex;
     gap: 20%;
     width: 100%;
-    border: 1px solid white;
+    border: 1px solid #ffffff6b;
     margin: auto;
     top: 0;
 }
@@ -51,27 +52,31 @@
  /* _________HOME_______________ */
 
  section#home {
+    background: linear-gradient(to right, #3b0c0c9a, black, transparent);
     white-space: nowrap;
-    padding-top: 10%;
-    width: 100%;
-    gap: 50%;
-    justify-content: space-around;
-}
-
-#home h2 {
-    font-size: 3rem;
+    padding-top: 20px;
+    justify-content: center;
     display: flex;
+    align-items: center;
+    max-width: 100%;
 }
-
-#home p {
+    
+    .content-container {
     display: flex;
-    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
-#foto {
-    display: flex;
+.text-content {
+    font-size: 2.9rem;
+    text-align: left;
+    padding: 20px;
+
 }
 
-#foto img {
-    width: 30%;
- }
+#imagem-content img {
+    max-width: 88%;
+    padding-top: 20%;
+    padding-left: 20%;
+    
+}
