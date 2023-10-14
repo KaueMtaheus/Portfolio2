@@ -231,6 +231,49 @@ button i {
 
 /*_______Habilidades_________*/
 
+section#skills {
+    padding: 10%;
+    background-color: #0f0f46;
+    display: grid;
+    width: 100%;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 0;
+}
+
+.hico {
+    width: 100%;
+    padding-top: 0;
+    font-size: 5rem;
+    display: flex;
+    padding: 5px;
+}
+
+
+.hico i {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+    margin: auto;
+}
+
+.hico img {
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+    margin: auto;
+}
+
+
+
+
 
 
 
