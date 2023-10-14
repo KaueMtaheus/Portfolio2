@@ -100,18 +100,26 @@
             <div class="hico">
                     <img src="img/photoshop.png" alt="">
                     <img src="img/mysql.png" alt="">
+                    <img src="img/nodejs.png" alt="">
                 </div>
         </section>
         <!-------------contatos-->
         <section id="contact">
-            <div>
                 <h2>Contato</h2>
-            </div>
-
+                <div class="container">
+                    <form class="contact-form" action="https://formsubmit.co/kauematheus7@hotmail.com" method="POST">
+                        <label for="email"><p>E-mail</p></label>
+                        <input type="email" name="email" id="email" required>   
+                        <label for="message"><p>Mensagem</p></label>   
+                        <input type="text" name="message" id="message" required>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/arquivos/thanks.html">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
         </section>
         <!-----------------final-->
         <footer id="rodap">
-
+            © 2023 Kaue Matheus
         </footer>
     </div>
 </body>

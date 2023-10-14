@@ -232,87 +232,104 @@ button i {
 /*_______Habilidades_________*/
 
 section#skills {
-    padding: 10%;
-    background-color: #0f0f46;
+    padding: 20px;
+    background-color:;
     display: grid;
     width: 100%;
+    background: linear-gradient(to bottom, black, #0f0f46);
+    border: 1px solid #80bbff82;
 }
 
 #skills h2 {
     text-align: center;
-    font-size: 2.5rem;
-    padding-top: 0;
+    font-size: 2rem;
+    padding: 20px;
+    border-bottom: 1px solid #80bbff82;
 }
 
 .hico {
     width: 100%;
-    padding-top: 0;
     font-size: 5rem;
     display: flex;
-    padding: 5px;
+    padding-top: 50px;
 }
 
 
 .hico i {
-    width: 50%;
+    width: 100%;
     justify-content: center;
     text-align: center;
-    border: 2px solid white;
     padding: 10px;
     margin: auto;
 }
 
 .hico img {
-    width: 20%;
+    width: 100px;
     justify-content: center;
     text-align: center;
-    border: 2px solid white;
     padding: 10px;
     margin: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 /*__________Contato__________*/
 
+section#contact {
+    background: linear-gradient(to top, black, #0f0f46);
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+}
 
+#contact h2 {
+    text-align: center;
+    padding: 20px;
+    padding-top: 100px;
+}
 
+.contact-form input {
+    display: flex;
+    width: 50%;
+    padding: 8px 0px;
+    margin: auto;
+    color: black;
+    
+}
 
+.contact-form input[type=text] {
+    height: 100px;
+    margin-bottom: 20px;
+}
 
+.contact-form button {
+    border: none;
+    color: white;
+    border: 1px solid #b7d4f6;
+    margin-bottom: 50px;
+}
 
-
-
-
-
-
-
-
-
-
+.contact-form p {
+    width: 50%;
+    padding: 8px 0px;
+    margin: auto;
+}
 
 
 /*__________Rodape_____________*/
 
-
+footer {
+    position: fixed;
+    text-align: center;
+    background-color: black;
+    color: #b7d4f6;
+    padding: 5px;
+    margin-top: 30px;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid #b7d4f6;
+}
 
 
 
