@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/1b9da4565a.js"  crossorigin="anonymous" defer></script>
     <!---Js Projeto-->
     <script src="js/script.js" defer></script>
+
 </head>
 <body>
     <div id="portfolio-container">
@@ -26,14 +27,16 @@
                     </ul>
                 </nav>
         </header>
+        <!--inicio-->
         <section id="home">
             <div class="content-container">
                 <div class="text-content">
                     <h2>Kauê Matheus</h2>
                     <p>Desenvolvedor Web</p>
                     <div id="icones">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-github-alt"></i>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github-alt"></i></a>
+                        <i class="fa-solid fa-address-card"></i>
                     </div>
                 </div>
                 <div id="imagem-content">
@@ -41,35 +44,61 @@
                 </div>
             </div>
         </section>
+        <!----------------sobre-->
         <section id="about">
-            <div>
+            <div id="about-container">
                 <h2>Sobre mim</h2>
                 <p>Sou um Desenvolvedor Web apaixonado por explorar os detalhes do HTML, CSS e JavaScript. Desde criança, sempre fui curioso sobre como as coisas funcionam e essa curiosidade me levou ao mundo da programação. Minha jornada até aqui foi repleta de desafios, mas cada obstáculo que enfrentei apenas alimentou minha determinação em aprender e crescer. No momento, estou mergulhado no estudo de tecnologias avançadas, como React e TypeScript, buscando ampliar ainda mais meu conjunto de habilidades. Acredito que cada desafio é uma oportunidade de aprendizado, e estou comprometido em transformar essas experiências em soluções inovadoras. Estou ansioso para contribuir com minha paixão pela tecnologia e minha capacidade de aprender rápido em projetos futuros.</p>
             </div>
         </section>
+        <!--------------projetos-->
         <section id="project">
-            <div>
-                <h2>Projetos</h2>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <h2>Projetos</h2>
+            <div class="project-container open">
+                
+                <div class="cont" id="p1">        
+                    <div class="rep">
+                        <p><a href="">Repositorio</a></p>
+                        <p><a href="">Site</a></p>
+                    </div>
+                </div>
+                <div class="cont" id="p2">
+                    <div class="rep">
+                        <p><a href="">Repositorio</a></p>
+                        <p><a href="">Site</a></p>
+                    </div>
+                </div>
+                <div class="cont" id="p3">
+                    <div class="rep">
+                        <p><a href="">Repositorio</a></p>
+                        <p><a href="">Site</a></p>
+                    </div>
+                </div>
+
             </div>
+
+            <div class="project-container closed">
+                <div id="p4"></div>
+                <div id="p5"></div>
+                <div id="p6"></div>
+            </div>
+            <button id="show-more"><i class="fa-solid fa-angles-down"></i></button>
         </section>
+        <!----------Habilidades-->
         <section id="skills">
             <div>
                 <h2>Habilidades</h2>
             </div>
 
         </section>
+        <!-------------contatos-->
         <section id="contact">
             <div>
                 <h2>Contato</h2>
             </div>
 
         </section>
+        <!-----------------final-->
         <footer id="rodap">
 
         </footer>
