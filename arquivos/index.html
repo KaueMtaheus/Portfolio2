@@ -9,6 +9,12 @@
     <!--Font Awelsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/1b9da4565a.js"  crossorigin="anonymous" defer></script>
+    <!---Jquery biblioteca-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>    
+    <!---carousel projetos-->
+    <link rel="stylesheet" type="text/css" href="carrosel/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="carrosel/slick-1.8.1/slick/slick-theme.css">
+    <script type="text/javascript" src="carrosel/slick-1.8.1/slick/slick.min.js"></script>    
     <!---Js Projeto-->
     <script src="js/script.js" defer></script>
 
@@ -54,35 +60,11 @@
         <!--------------projetos-->
         <section id="project">
             <h2>Projetos</h2>
-            <div class="project-container open">
-                
-                <div class="cont" id="p1">        
-                    <div class="rep">
-                        <p><a href="">Repositorio</a></p>
-                        <p><a href="">Site</a></p>
-                    </div>
-                </div>
-                <div class="cont" id="p2">
-                    <div class="rep">
-                        <p><a href="">Repositorio</a></p>
-                        <p><a href="">Site</a></p>
-                    </div>
-                </div>
-                <div class="cont" id="p3">
-                    <div class="rep">
-                        <p><a href="">Repositorio</a></p>
-                        <p><a href="">Site</a></p>
-                    </div>
-                </div>
-
+            <div class="project-container slick-slider">
+                <div class="cont project-item" id="p1"><img src="img/projetotodoavanca.PNG" alt="projeto1"></div>
+                <div class="cont project-item" id="p2"><img src="img/projetocordeu.PNG" alt="projeto2"></div>
+                <div class="cont project-item" id="p3"><img src="img/projetodroid.PNG" alt="projeto3"></div>
             </div>
-
-            <div class="project-container closed">
-                <div id="p4"></div>
-                <div id="p5"></div>
-                <div id="p6"></div>
-            </div>
-            <button id="show-more"><i class="fa-solid fa-angles-down"></i></button>
         </section>
         <!----------Habilidades-->
         <section id="skills">
@@ -98,10 +80,10 @@
                 <i class="fa-brands fa-react"></i>
             </div>
             <div class="hico">
-                    <img src="img/photoshop.png" alt="">
-                    <img src="img/mysql.png" alt="">
-                    <img src="img/nodejs.png" alt="">
-                </div>
+                <img src="img/photoshop.png" alt="">
+                <img src="img/mysql.png" alt="">
+                <img src="img/nodejs.png" alt="">
+            </div>
         </section>
         <!-------------contatos-->
         <section id="contact">

@@ -146,8 +146,9 @@ section#about {
 
 section#project {
     background: linear-gradient(to top,  #0f0f4660, black, transparent);
-    padding: 5%;
-    max-width: 100%;
+    padding: 20px;
+    width: 100%;
+
 }
 
 section#project h2 {
@@ -155,58 +156,24 @@ section#project h2 {
     text-align: center;
     color: black;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .project-container {
+    margin-top: 0;
     display: flex;
-    padding: 20px;
-}
-
-.cont {
-    display: flex;
-    border: 1px solid #b7d4f6;
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    margin: auto;
-}
-
-.rep {
-    background-color: black;
     width: 100%;
     margin: auto;
-    padding: 10px;
 }
 
-.rep p {
-    text-align: center;
-    padding-top: 10px;
+.cont img {
+    border: 1px solid #b7d4f6;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 300px;
 }
 
-#p1  {
-    background-image: url(/arquivos/img/projetotodoavanca.PNG);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    text-align: center;
-}
-
-#p2 {
-    background-image: url(/arquivos/img/projetocordeu.PNG);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    text-align: center;
-}
-
-#p3 {
-    background-image: url(/arquivos/img/projetodroid.PNG);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    text-align: center;
-}
 
 button {
     display: flex;
@@ -272,8 +239,6 @@ section#skills {
 }
 
 
-
-
 /*__________Contato__________*/
 
 section#contact {
@@ -331,14 +296,7 @@ footer {
     border: 1px solid #b7d4f6;
 }
 
-
-
-
-
-
-
-
-
-
-
 /*__________Media query_________*/
+
+
+
