@@ -166,7 +166,10 @@ section#project h2 {
     margin-bottom: 20px;
 }
 
-
+section#project p {
+    text-align: center;
+    font-size: 11px;
+}
 
 .project-container {
     padding: 10px;
@@ -199,6 +202,7 @@ section#project h2 {
 
 .cont p a {
     text-decoration: none;
+    margin-bottom: 10px;
 }
 
 .cont p a:hover {
