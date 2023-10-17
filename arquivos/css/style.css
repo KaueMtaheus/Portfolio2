@@ -166,6 +166,8 @@ section#project h2 {
     margin-bottom: 20px;
 }
 
+
+
 .project-container {
     padding: 10px;
     width: 90%;
@@ -178,8 +180,30 @@ section#project h2 {
     margin: auto;
     width: 400px;
     height: 300px;
+    margin-bottom: 10px;
 }
 
+.cont img:hover {
+    border: 3px solid white;
+}
+
+.cont p {
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #0f0f46;
+    width: 400px;
+    margin: auto;
+    border: 1px solid #80bbff;
+}
+
+.cont p a {
+    text-decoration: none;
+}
+
+.cont p a:hover {
+    text-decoration: underline;
+}
 
 button {
     display: flex;
