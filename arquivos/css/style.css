@@ -203,6 +203,7 @@ section#project p {
 .cont p a {
     text-decoration: none;
     margin-bottom: 10px;
+    font-size: 1rem;
 }
 
 .cont p a:hover {
