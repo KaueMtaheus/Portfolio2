@@ -18,6 +18,7 @@
  /*________ Header, navegação_________ */
 
 .navbar {
+    z-index: 1000; /* Aumente o valor do z-index, se necessário, para garantir que o menu esteja acima de outros elementos. */
     background: linear-gradient(to left, #0f0f46cb,  black,  transparent, transparent,  #0f0f46);
     align-items: center;
     justify-content: space-around;
@@ -337,6 +338,7 @@ section#contact {
 /*__________Rodape_____________*/
 
 footer {
+    
     position: fixed;
     text-align: center;
     background-color: black;
@@ -346,6 +348,7 @@ footer {
     bottom: 0;
     width: 100%;
     border: 1px solid #b7d4f6;
+    z-index: 1000; /* Aumente o valor do z-index, se necessário, para garantir que o menu esteja acima de outros elementos. */
 }
 
 /*__________Media query_________*/
