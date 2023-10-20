@@ -20,3 +20,31 @@
         });
       });
       
+
+// transição video 
+
+window.addEventListener("load", function () {
+
+});
+
+
+const video = document.getElementById('background-video');
+
+const options = {
+  root: null,  // Use the viewport as the root
+  rottMargin: "Opx",
+  threshold: 0.5,  // Quando 50% do elemento estiver visível
+
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+          video.style.opacity = 1; // Torna o vídeo visível
+          observer.unobserve(video); // Para de observar o vídeo após torná-lo visível
+      }
+  });
+}, options);
+
+
+observer.observe(video);

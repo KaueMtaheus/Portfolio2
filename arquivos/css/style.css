@@ -117,22 +117,38 @@ div#icones {
 
 
 section#about {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
     padding: 10%;
     width: 100%;
 }
 
+#background-video  {
+    opacity: 0;
+    transition: opacity 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 #about-container {
+    position: relative;
+    z-index: 1;
     border-radius: 0px 0px 10px 10px;
-    background-color: white;
     padding: 0;
     padding-top: 0;
     max-width: 600px;
     justify-content: center;
     margin: auto;
+    border: 1px solid black;
 }
 
 #about-container h2{
-    background-color: #b7d4f6;
+    background-color:  #b7d4f6;
     text-align: center;
     color: black;
     font-size: 1.5rem;
@@ -142,10 +158,11 @@ section#about {
 
 #about-container p {
     color: black;
-    padding: 10px;
+    padding: 20px;
     font-weight: 200px;
     text-indent: 20px;
     text-align: justify;
+    background-color: white;
 }
 
 
