@@ -48,3 +48,24 @@ const observer = new IntersectionObserver((entries) => {
 
 
 observer.observe(video);
+
+// efeito scrollrevealjs
+
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('.area-1', { duration: 2000 });
+
+sr.reveal('.area-2', { 
+  rotate: { x:100, y:100, z: 80},
+  duration: 2500,  
+
+});
+
+
+sr.reveal('.hico', { 
+  rotate: { x:100, y:100, z: 80},
+  duration: 2500,  
+
+});
+
+

@@ -15,6 +15,15 @@
     width: 100%;
  }
 
+
+/*_________efeito scrollrevealjs____________*/
+
+.area-1, .area-2, .hico {
+    visibility: hidden;
+}
+
+
+
  /*________ Header, navegação_________ */
 
 .navbar {
@@ -350,6 +359,7 @@ footer {
     border: 1px solid #b7d4f6;
     z-index: 1000; /* Aumente o valor do z-index, se necessário, para garantir que o menu esteja acima de outros elementos. */
 }
+
 
 /*__________Media query_________*/
 
