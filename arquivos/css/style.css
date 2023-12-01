@@ -423,6 +423,13 @@ div#icones {
     margin: auto;
     width: 300px;
     height: 300px;
+    margin-bottom: 10px;
 }
+
+.cont p {
+    text-align: center;
+    width: 300px;
+}
+
 
 }
