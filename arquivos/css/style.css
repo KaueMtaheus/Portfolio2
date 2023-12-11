@@ -165,9 +165,9 @@ section#about {
 
 #about-container p {
     color: black;
-    padding: 15px;
+    padding: 7px;
     font-weight: 700px;
-    text-indent: 22px;
+    text-indent: 10px;
     text-align: justify;
     background-color: white;
 }
