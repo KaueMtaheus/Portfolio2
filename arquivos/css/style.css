@@ -130,7 +130,7 @@ section#about {
     position: relative;
     height: 100vh;
     overflow: hidden;
-    padding: 10%;
+    padding-top: 100px;
     width: 100%;
 }
 
@@ -148,13 +148,10 @@ section#about {
 #about-container {
     position: relative;
     z-index: 1;
-    border-radius: 0px 0px 10px 10px;
-    padding: 0;
-    padding-top: 0;
     max-width: 600px;
+    align-items: center;
     justify-content: center;
-    margin: auto;
-    border: 1px solid black;
+    margin: auto;  
 }
 
 #about-container h2{
@@ -168,9 +165,9 @@ section#about {
 
 #about-container p {
     color: black;
-    padding: 20px;
-    font-weight: 200px;
-    text-indent: 20px;
+    padding: 15px;
+    font-weight: 700px;
+    text-indent: 22px;
     text-align: justify;
     background-color: white;
 }
@@ -180,7 +177,6 @@ section#about {
 
 section#project {
     background: linear-gradient(to top,  #0f0f4660, black, transparent);
-    padding: 20px;
     max-width: 100%;
 
 }
@@ -432,4 +428,29 @@ div#icones {
 }
 
 
+}
+
+@media (max-width: 480px) {
+    
+    
+    section#about {   
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #about-container {
+        position: relative;
+        z-index: 1;
+        max-width: 350px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;  
+    }
+    
+    
+    #background-video  {
+        display: none;
+   }
 }
